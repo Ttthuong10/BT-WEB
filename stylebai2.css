@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: max-content;
+    background-image: url(./ảnh\ nền.jpeg);
+}
+body{
+    display: block;
+    margin: 0 40px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-image: url(./ảnh\ nền\ trong.jpg);
+}
+
+.menu{
+   position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.menu>li{
+    width: 100%;
+    box-sizing:content-box;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(240, 195, 202);
+    list-style: none;
+    border: 1px solid rgb(231, 124, 75);
+}
+
+.menumother{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.menu>li:hover{
+    width: 100%;
+    height: 50%;
+    background-color: aquamarine;
+}
+
+.menuchild{
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    display: none;
+}
+
+.menu>li:hover>.menuchild{
+    display: block;
+    display: flex;
+}
+
+.menuchild>li{
+    padding: 10px;
+    list-style:none;
+    background-color: rgb(218, 137, 175);
+    color: white;
+}
+.menumother>p{
+    box-sizing: border-box;
+    background-color: rgb(172, 57, 57);
+    width: 100%;
+    height: 30px;
+}
+
+.container{
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.content{
+    /* float: left; */
+    flex: 1;
+    width: 20%;
+    height: 800px;
+    background-color: rgb(246, 139, 39);
+}
+
+h3{
+    height: 30px;
+    background-color: rgb(219, 149, 99);
+}
+
+.contentchild{
+    flex: 4;
+    background-color: rgb(148, 15, 15);
+    list-style: circle;
+    border: 1px solid brown;
+    height: fit-content;
+}
+
+
+
+.Sanpham{
+    width: 80%;
+    height: 800px;
+}
+
+.tabar{
+    background-color: rgb(180, 130, 69);
+    width: 100%;
+    height:fit-content;
+}
+
+.hang1{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+
+.hang2{
+    margin-left: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+.masp{
+   width: 95%; 
+    background-color: rgba(183, 181, 181, 0.902);
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.giatien{
+    width: 95%;
+    background-color: rgba(130, 128, 128,0.5);
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+.foot{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+}
+
+.foot>li{
+    box-sizing: border-box;
+    color: white;
+    padding: 10px;
+    border-right: 1px solid white;
+}
+
+#id{
+    border-right: none;
+}
+
+.ho{
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(207, 111, 28, 0.619);
+    text-align: center;
+    text-decoration: none;
+}

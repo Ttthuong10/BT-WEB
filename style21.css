@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0 150px;
+
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    height: 180px;
+    background-color: green;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.header .logo {
+    padding-left: 10px;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: #991417;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid brown;
+    font-weight: 600;
+    height: 88%;
+    width: 21%;
+    margin-right: 2px;
+}
+
+.nav ul li:hover {
+    background-color: aquamarine;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.option {
+    width: 20%;
+    background-color: #d1482c;
+}
+
+.option-top {
+
+    height: 40px;
+    color: white;
+    padding-left: 40px;
+}
+
+.option-list {
+    color: white;
+    width: 100%;
+    background-color: #991417;
+}
+
+.main {
+    width: 80%;
+}
+
+.banner {
+    width: 100%;
+    height: 250px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.product {
+    padding: 10px 0 30px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 580px;
+    background-color: #e2e9c2;
+}
+
+.item {
+    width: 25%;
+
+
+}
+
+.item img {
+    border: 1px solid gray;
+
+}
+
+.item div {
+    margin-top: 2px;
+    width: 95%;
+    color: white;
+    background-color: rgb(163, 162, 162);
+}
+
+.footer-top {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+
+.footer-top ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+.footer-top ul li {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88%;
+    width: 10%;
+}
+
+.footer-top ul li:nth-child(1) {
+    border-right: 1px solid white;
+}
+
+.footer-top ul li:nth-child(2) {
+    border-right: 1px solid white;
+}
+
+.footer-top ul li:nth-child(3) {
+    border-right: 1px solid white;
+}
+
+.footer-top ul li:nth-child(4) {
+    border-right: 1px solid white;
+}
+
+.footer-top ul li:nth-child(5) {
+    border-right: 1px solid white;
+}
+
+.footer-bot {
+    width: 100%;
+    height: 120px;
+    background-color: #B5B36F;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

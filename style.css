@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    display: block;
+    width: 845px;
+}
+
+#nav {
+    background-color: antiquewhite;
+    height: 35px;
+}
+
+#nav li a {
+    padding: 0 33.5px;
+    color: #000;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+#nav li:hover a {
+    color: white;
+    background-color: turquoise;
+    display: block;
+}
+
+#none {
+    height: 20px;
+    background-color: rgb(139, 21, 0);
+}
+
+#section {
+    width: 20%;
+    float: left;
+    height: 510px;
+    background-color: rgb(139, 36, 0);
+}
+
+#section title a {
+    color: #fff;
+    background-color: rgb(187, 112, 0);
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#section.list a {
+    background-color: darkred;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    border-top: 1px solid rgb(253, 105, 105);
+    padding: 5 px 0;
+}
+
+#slider.img {
+    width: 80%;
+    display: block;
+    float: left;
+}
+
+#slider p {
+    color: #fff;
+    background-color: rgb(187, 112, 0);
+}
+
+#content {
+    background-color: wheat;
+}
+
+#content -product {
+    padding: 15px;
+    display: inline-block;
+    color: #fff;
+}
+
+#content p {
+    background-color: rgb(161, 116, 73);
+}
+
+#infooter a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer {
+    text-align: center;
+    height: 80px;
+    background-color: rgb(161, 116, 73);
+}
